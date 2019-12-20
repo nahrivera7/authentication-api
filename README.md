@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+En este repositorio encontrarás el API de autenticación que construimos siguiendo este post:
+https://link.medium.com/LuUuuIyJz2
 
-Things you may want to cover:
+## ¿Cómo usarlo?
+Si deseas puedes hacer un clon o un fork de mi repositorio para explorarlo. Una vez tengas el proyecto en tu computador no olvides instalar las dependencias:
 
-* Ruby version
+    /auth-api $ bundle install
 
-* System dependencies
+Después puedes levantar el servidor:
 
-* Configuration
+    /auth-api $ rails server
 
-* Database creation
+Con el servidor corriendo puedes probar los siguientes endpoints:
 
-* Database initialization
+ - POST [localhost]/signup
+ - POST [localhost]/login
+ - DELETE [localhost]/logout
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+En el post que enlacé arriba puedes encontrar la información que se espera recibir enlos request anteriores.
+No olvides dejarme tu estrella 🌟 y ¡gracias por leer!
